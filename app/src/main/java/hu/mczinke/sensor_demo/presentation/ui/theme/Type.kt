@@ -1,4 +1,4 @@
-package hu.mczinke.sensor_demo.ui.theme
+package hu.mczinke.sensor_demo.presentation.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle

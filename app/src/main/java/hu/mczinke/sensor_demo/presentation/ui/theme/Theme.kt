@@ -1,4 +1,4 @@
-package hu.mczinke.sensor_demo.ui.theme
+package hu.mczinke.sensor_demo.presentation.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme

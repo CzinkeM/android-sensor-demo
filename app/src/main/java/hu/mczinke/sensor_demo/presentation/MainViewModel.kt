@@ -1,4 +1,4 @@
-package hu.mczinke.sensor_demo
+package hu.mczinke.sensor_demo.presentation
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
