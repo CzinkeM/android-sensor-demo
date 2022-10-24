@@ -1,4 +1,4 @@
-package hu.mczinke.sensor_demo
+package hu.mczinke.sensor_demo.sensor
 
 import android.content.Context
 import android.hardware.Sensor
@@ -31,7 +31,7 @@ abstract class AndroidSensor(
         }
 
         sensor.let {
-            sensorManager.registerListener(this, it, SensorManager.SENSOR_DELAY_FASTEST)
+            sensorManager.registerListener(this, it, SensorManager.SENSOR_DELAY_NORMAL)
         }
     }
 
@@ -51,7 +51,6 @@ abstract class AndroidSensor(
         }
     }
 
-    override fun onAccuracyChanged(sensor: Sensor?, accuracy: Int) {
-        TODO("Not yet implemented")
-    }
+    //todo: Should use it
+    override fun onAccuracyChanged(sensor: Sensor?, accuracy: Int) = Unit
 }

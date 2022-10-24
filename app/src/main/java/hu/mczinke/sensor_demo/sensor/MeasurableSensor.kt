@@ -1,4 +1,4 @@
-package hu.mczinke.sensor_demo
+package hu.mczinke.sensor_demo.sensor
 
 import android.hardware.Sensor
 
